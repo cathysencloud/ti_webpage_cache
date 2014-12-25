@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="me">
+		<Button class="load_btn"  id="download_btn" title=" " onClick="download_click"/>
+		<Button class="load_btn" id="scan_btn" title=" " onClick="scan_click"/>
+	</Window>
+</Alloy>

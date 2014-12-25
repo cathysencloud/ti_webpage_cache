@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name WebpagecacheBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.sencloud.webpagecache.WebpagecacheModule.h"
+#include "com.sencloud.webpagecache.ExampleProxy.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.sencloud.webpagecache.WebpagecacheModule, ::com::sencloud::webpagecache::WebpagecacheModule::bindProxy, ::com::sencloud::webpagecache::WebpagecacheModule::dispose
+com.sencloud.webpagecache.ExampleProxy, ::com::sencloud::webpagecache::webpagecache::ExampleProxy::bindProxy, ::com::sencloud::webpagecache::webpagecache::ExampleProxy::dispose
+%%

@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: webpagecache
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2014 by Your Company
+
+# these should not be edited
+name: webpagecache
+moduleid: com.sencloud.webpagecache
+guid: 1ef6294a-60f7-4361-b326-e5d755e5aa03
+platform: android
+minsdk: 3.4.1.GA

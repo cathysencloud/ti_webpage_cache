@@ -1,0 +1,15 @@
+".me": {
+	backgroundColor: "white"
+},
+".load_btn":{
+	width: "200dp",
+	backgroundColor: "#0ff",
+	color: "#000",
+	center: true
+},
+"#download_btn":{
+	top: "50dp"
+},
+"#scan_btn":{
+	bottom: "50dp"
+}
